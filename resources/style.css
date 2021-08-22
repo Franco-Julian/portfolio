@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Klee+One&display=swap');
+
+html {
+    font-family: 'Klee One', cursive;
+    scroll-behavior: smooth;
+    background-color:floralwhite;
+    font-size: 18px;
+}
+
+.underNav {
+    z-index: -1;
+    width: 100%;
+    position: absolute;
+}
+
+nav {
+    z-index: 1;
+    display: flex;
+    height: 80px;
+    max-width: 100%;
+    background-color: rgba(255, 255, 255, 0.9);
+    justify-content: space-around ;
+}
+
+.logo {
+    transform: scale(1);
+}
+
+.index {
+    z-index: 1;
+    color: black;
+    display: flex;
+    list-style-type: none;
+    white-space: nowrap;
+}
+
+.index li {
+    padding: 5% 5%;
+}
+
+.skills {
+    display: none;
+}
+
+.About_img {
+    height: 250px;
+    width: 250px;
+    padding: 5px;
+    border-radius: 50%;
+    border-style: solid;
+    border-color: black;
+    position: relative;
+    left: 72%;
+    top: 330px;
+}
+
+main {
+    width: 50%;
+    position: relative;
+    left: 23%;
+    top: 200px;
+}
+
+footer {
+    display: flex;
+    width: 50%;
+    justify-content: space-between;
+    position: relative;
+    top: 200px;
+    left: 23%;
+    text-align: center;
+}
+
+footer a {
+   padding: 15px 0;
+}
