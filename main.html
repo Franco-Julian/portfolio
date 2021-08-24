@@ -9,25 +9,31 @@
 </head>
 <body>
     <img class="underNav" src="./resources/images/underNav.png" alt="Code img & coffee">
-    <nav>
+    <nav1 id="nav">
             <h2>Julián Franco</h2>
-            <img class="logo" src="./resources/images/jf_logo.jpg" alt="JF logo">
-            <ul class="skills">
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-            </ul>
+            <img onclick="show()" class="logo" src="./resources/images/jf_logo.png" alt="JF logo">
             <ul class="index">
                 <li><a href="#About"> About Me </a></li>
                 <li><a href="#Projects"> Projects </a></li>
                 <li><a href="#Contact"> Contact </a></li>
             </ul>
-    </nav>
+    </nav1>
+    <nav2 id="appear">
+        <section id="skills">
+            <div id="skills-container">
+              <i class="fab fa-html5"><img src="./resources/images/html5.ico" alt="HTML5"></i>
+              <i class="fab fa-css3"><img src="./resources/images/css.ico" alt="css"></i>
+              <i class="fab fa-js"><img src="./resources/images/js.ico" alt="JavaScript"></i>
+              <i class="fab fa-react"><img src="./resources/images/react.ico" alt="react"></i>
+              <i class="fab fa-redux"><img src="./resources/images/redux.ico" alt="redux"></i>
+              <i class="fab fa-git"><img src="./resources/images/git.ico" alt="git"></i>
+              <i class="fab fa-chrome"><img src="./resources/images/chrome.ico" alt="chrome"></i>
+              <i class="fas fa-terminal"><img src="./resources/images/terminal.ico" alt="terminal"></i>
+              <i class="fas fa-universal-access"><img src="./resources/images/accessibility.ico" alt="accessibility"></i>
+              <i class="fab fa-github"><img src="./resources/images/githube.ico" alt="githube"></i>
+            </div>
+          </section>
+    </nav2>
     <div>
         <img class="About_img" src="./resources/images/JF_picture.jpg" alt="JF picture">
     </div>
@@ -65,5 +71,5 @@
     </footer>
 </body>
 
-<script src="/main.js"></script>
+<script src="./main.js"></script>
 </html>
